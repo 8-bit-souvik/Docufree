@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+body{
+    max-width: fit-content;
+    overflow-x: hidden;
+}
+.viewpage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70% ;
+   
+    margin: auto;
+}
+
+.viewpage img{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(160, 160, 160);
+}
+.cont{
+   width: fit-content;
+   
+    text-align: center;
+}
+
+
+
+.cont1{
+    max-width: fit-content;
+}
+
+.viewpage .text{
+    text-align: left;
+    
+    color: aliceblue;
+}
+
+.contact{
+    width: 30ch;
+    background-color: rgb(28, 112, 151);
+    text-align: center;
+   padding: 15px ;
+   transform: scale(1.10);
+   border-radius: 10px;
+}
+.input{
+    padding: 5px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 82%;
+   
+}
+.part{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.landingpg{
+    background: linear-gradient(to bottom right, rgb(5, 103, 194), rgb(97, 175, 248)) ;
+    background-repeat: no-repeat ;
+   padding-bottom: 45px;
+    height: content;
+    transform: scale(1.10);
+    width: 100%;
+}
+
+.feature{
+    width:100vw
+}
+
+.feature .text{
+   width: 30vw;
+   font-size: larger;
+}
+
+.featurecrd{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: auto;
+    padding: 1ch;
+}
+.card-content{
+    padding: 0 10ch ;
+}
+.even{
+    flex-direction: row-reverse;
+}
+
+.cardset {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin: auto;
+    margin-left: 45px;
+}
+
+.card {
+    width: 300px;
+
+    text-align: center;
+    padding: 10px;
+
+    box-shadow: 25px 15px 25px 5px rgb(199, 197, 197);
+    margin: 20px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.lrn-more {
+    border: rgb(228, 168, 3) 2px solid;
+    border-radius: 20px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    color: rgb(224, 166, 5);
+}
+
+.solutions {
+    background-color: rgb(31, 25, 90);
+   width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+.lrn-more1{
+    width: fit-content;
+    background-color: rgb(206, 175, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: auto;
+   position: relative;
+   top: 70px;
+    
+    
+}
+
+.card1 {
+    width: 280px;
+    height: 350px;
+    text-align: center;
+    padding: 10px;
+     background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.btn :hover{
+        color: rgb(143, 151, 65);
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width:800px ){
+    .viewpage{
+       transform: scale(.9);
+    }
+    .contact{
+        transform: scale(.9);
+    }
+
+    .card{
+        width: 200px ;
+    }
+}
+
+@media only screen and (max-width:700px ){
+    .viewpage img {
+        transform: scale(.9);
+    }
+}
+
+@media only screen and (max-width:700px ){
+    .cont{
+        transform: scale(.9);
+    }
+
+    .viewpage {
+        font-size: 90%;
+    }
+  
+
+}
+
+@media only screen and (max-width:600px ){
+      .viewpage img{
+          width:300px;
+      }
+      .card-content{
+        transform: scale(.9);
+        
+      }
+      .card-content .text{
+          width: 90%;
+          padding: 0 0;
+          font-size: smaller;
+      }
+
+      .feature img{
+         width: 200px;
+      }
+      .card1{
+        height: 50%;
+         margin-bottom: 10%;
+         padding: 0%;
+     }
+     .lrn-more1{
+        position:static;
+       
+        
+    }
+}
+
+@media only screen and (max-width:550px ){
+    .card{
+        width: 150px;
+    }
+    .cardset{
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:465px ){
+    .card{
+        font-size: smaller;
+        width: 40%;
+       margin: 5px;
+      padding: 5px;
+    }
+    .cardset{
+        margin: 5px;
+        margin-left: 50px;
+        transform: scale(.9);
+        padding: 0%;
+    }
+    .lrn-more{
+        padding: 2px 8px;
+    }
+    .card1{
+       height: 50%;
+        margin-bottom: 10%;
+        padding: 0%;
+    }
+    .lrn-more1{
+        position:static;
+       
+        
+    }
+}
